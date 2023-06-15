@@ -1,0 +1,28 @@
+.ytb_img1 {
+    /* height: 300px; */
+    width: 300px;
+    /* object-fit: contain;
+    object-position: top;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+}
+.search-bar{
+    font-size: 25px;
+   
+    
+}
+.video-title{
+    font-size: 20px;
+    vertical-align: top;
+    
+}
+
+.video-author{
+    display: inline-block;
+    font-size: x-small;
+}
+.video-stats{
+    display: inline-block;
+    font-size: x-small;
+}

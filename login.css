@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(ytb_img1.webp);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.form-box{
+    height: 480px;
+    width: 380px;
+    background: white;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    opacity: 0.6;
+
+}
+.button-box{
+    margin: 35px auto;
+    width: 220px;
+    box-shadow: 2px 2px 5px rgb(246, 127, 127);
+    position: relative;
+    border-radius: 35px;
+}
+
+.toggle-btn{
+    padding: 8px 10px;
+    cursor: pointer;
+    background: transparent;
+}

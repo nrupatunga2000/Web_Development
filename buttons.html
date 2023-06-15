@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .subscribe{
+            background-color: rgb(230, 7, 7);
+            color: white;
+            height: 38px;
+            width: 150px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 20px;
+            vertical-align: top;
+        }
+        .subscribe:hover{
+            opacity: 0.4; <--this property will fade the button, lesser value = more fade-->
+
+        }
+
+        .subscribe:active{
+            opacity: 0.7;
+        }
+
+        .join{
+            height: 36px;
+            width: 70px;
+            background-color: white;
+            border-color: rgba(1, 1, 255, 0.933);
+            color: blue;
+            border-radius: 4px;
+            cursor: pointer;
+            border-width: 1px;
+            border-style: solid;
+            margin-right: 20px;
+            vertical-align: top;
+        }
+        .join:hover{
+            background-color: rgba(1, 1, 255, 0.933);
+            color: white;
+        }
+
+        .Twitter{
+            background-color: rgb(67, 136, 239);
+            color: white;
+            border: 0;
+            height: 40px;
+            width: 85px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            vertical-align: top;
+           
+
+        }
+        .Twitter:hover{
+            box-shadow: 1px 1px 10px black;
+            transition: 0.2s;
+            
+        }
+        .Tanu{
+            background-color: rgb(233, 42, 194);
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            border: 1px;
+            border-radius: 5px;
+            color: white;
+            margin-top: 3%;
+            margin-right: 80% ;
+            
+            
+        }
+        .Tanu:hover{
+            padding-left: 15px;
+            padding-right: 15px;
+            box-shadow: 2px 2px 10px black;
+            transition: 0.5s;
+            
+        }
+        .Tanu:active{
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="Twitter">Tweet</button>
+    <button class="Tanu">Tanu</button>
+    
+</body>
+</html>
