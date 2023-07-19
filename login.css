@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(elephant.webp);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.form-box{
+    height: 480px;
+    width: 380px;
+    background: white;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    border: 6px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px black ;
+
+    opacity: 0.7;
+
+}
+.button-box{
+    margin: 35px auto;
+    width: 220px;
+    box-shadow: 2px 2px 5px rgb(246, 127, 127);
+    position: relative;
+    border-radius: 35px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 35px;
+    position: relative;
+    outline: none;
+    border: 0;
+    
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 110px;
+    position: absolute;
+    background: linear-gradient(to right, orange,red);
+    border-radius: 35px;
+
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 23px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(202, 202, 202);
+    border-radius: 50%;
+
+}
+
+.input-login{
+    top: 180px;
+    width: 200px;
+    position: absolute;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.user-id-login{
+    width: 100%;
+    margin-left: 38%;
+    height: 20px;
+    padding: 2px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: transparent;
+    outline: none;
+    border: 0;
+
+}
+
+.password-login{
+    width: 100%;
+    margin-left: 38%;
+    height: 20px;
+    padding: 2px;
+    padding-left: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    
+}
+
+.login-btn{
+    padding: 12px 30px;
+    margin-top: 30px;
+    margin-left: 65%;
+    border-radius: 8px;
+    background: linear-gradient(to right, orange,red);
+    border: 0;
+    outline: none;
+    
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25;
+}
+.box{
+    margin: 25%;
+}
+
+.large{
+    height: 90px;
+    width: 90px;
+    padding: 100px;
+    background-color: brown;
+}
+
+.medium{
+    height: 60px;
+    width: 60px;
+    padding: 25px;
+    background-color: blue;
+}
+
+.small{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: green;
+}

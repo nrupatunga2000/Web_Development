@@ -1,0 +1,6 @@
+{
+    "terminal.explorerKind": "both",
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
