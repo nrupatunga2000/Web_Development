@@ -13,14 +13,92 @@ function showError(input, message) {
     
     
 }
+
+//email validation function declaration
+function isValidEmail(email) {
+
+    //this is a regular expression for email validation which you have to fetch from internet
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return re.test(email);
+}
+
+//showSuccess function declaration
+function showSuccess(input) {
+    
+    formControl = input.parentElement;
+    formControl.className = "form-control success";
+}
+
+//check requaired function 
+// function checkRequaired(inputArr) {
+//     inputArr.foreach(function(input) {
+//         if (input.values ==='') {
+
+//             showError(input,mess)
+            
+//         }
+
+        
+//     })
+    
+//}
+
+// this is a if else style of doing
+
+
 //To perform some operation we use .addEventListener
 form.addEventListener('submit', function(e){
     
     e.preventDefault() //it is used to prevent refreshing 
     
     //here form validation starts
-    if (username.value===0) {
+
+    //logic for username
+    if (username.value==='') {
         showError(username,"enter username")
         
+    }else{
+        showSuccess(username);
+    }
+
+    //logic for email
+    if (email.value==='') {
+        showError(email,"enter Email")
+        
+    }else{
+        showSuccess(email);
+    }
+    
+    //elseif is used to check the email format. if it is not valid then call error function
+    // elseif(!isValidEmail(email.values)) {
+
+    //     showError(username,"enter username")
+    // }
+    // {
+    //     showSuccess(email);
+    // }
+
+    //logic for Password1
+    if (password1.value==='') {
+        showError(password2,"enter password")
+        
+    }else{
+        showSuccess(password1);
+    }
+
+    //logic for password2
+    if (password2.value==='') {
+        showError(password2,"enter password")
+        
+    }else{
+        showSuccess(password2);
     }
 })
+
+//To perform some operation we use .addEventListener
+// form.addEventListener('submit', function(e){
+    
+//     e.preventDefault() //it is used to prevent refreshing 
+
+//     checkRequaired([username,email,password1,password2])
+// })
